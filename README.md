@@ -24,3 +24,5 @@ If you just want a quick check, set `FAST=1` before starting Jupyter and it runs
 
 To see the training runs and the monthly monitoring results, run this in the folder:
 `mlflow ui --backend-store-uri sqlite:///mlflow.db`
+
+Tested on Windows 11 with an NVIDIA GPU (CUDA).
